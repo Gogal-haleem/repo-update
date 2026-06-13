@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="amount">
+    <input type="text"  id="enter-amount" class="user-amount" placeholder="Enter your amount">
+    <p class="display-amount" id="convert-amount">672</p>
+</div>
+   
+<div class="container">
+  <div class="box-1">
+    <p>Select the Currency</p>
+    <ul>
+      <li>
+        <label >PKR</label>
+        <input type="radio" name="Currency" id="rupees">
+      </li>
+      <li>
+        <label >INR</label>
+        <input type="radio" name="Currency" id="indian">
+      </li>
+      <li>
+        <label >USD</label>
+        <input type="radio" name="Currency" id="dollar">
+      </li>
+    </ul>
+  </div>
+  <div class="box-2">
+    <p>Convert to Currency</p>
+     <ul>
+      <li>
+        <label >PKR</label>
+        <input type="radio" name="currency_convert_to" id="converted_to_rupees">
+      </li>
+      <li>
+        <label >INR</label>
+        <input type="radio" name="currency_convert_to" id="converted_to_indian">
+      </li>
+      <li>
+        <label >USD</label>
+        <input type="radio" name="currency_convert_to" id="converted_to_dollar">
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<script src="back.js"></script>
+</body>
+</html>
